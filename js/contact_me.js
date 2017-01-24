@@ -2,9 +2,9 @@ $(function() {
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
+        //submitError: function($form, event, errors) {
             // additional error messages or events
-        },
+        //},
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
@@ -28,6 +28,7 @@ $(function() {
                     email: email,
                     message: message
                 },
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Success message
@@ -42,7 +43,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                //error: function() {
                     // Fail message
                     // $('#success').html("<div class='alert alert-danger'>");
                     // $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -51,7 +52,7 @@ $(function() {
                     // $('#success > .alert-danger').append('</div>');
                     // //clear all fields
                     // $('#contactForm').trigger("reset");
-                },
+                //},
             })
         },
         filter: function() {

@@ -20,7 +20,7 @@ $(function() {
                 //url: "././mail/contact_me.php",
                 url: "https://formspree.io/gary.shew.email@gmail.com",
                 headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
+                    'Content-Type': 'application/x-www-form-urlencoded'  
                 },                
                 type: "POST",
                 data: {

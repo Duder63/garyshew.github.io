@@ -18,7 +18,10 @@ $(function() {
             }
             $.ajax({
                 //url: "././mail/contact_me.php",
-                url: "https://formspree.io/gary.shew.email@gmail.com", 
+                url: "http://formspree.io/gary.shew.email@gmail.com", 
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },                
                 type: "POST",
                 data: {
                     name: name,

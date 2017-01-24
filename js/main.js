@@ -61,7 +61,7 @@ function main() {
         offset: 80
     })
 
-  	// $(document).ready(function() {
+  	// $(document).ready(function() {  
   	//     $("#testimonial").owlCarousel({
    //      navigation : false, // Show next and prev buttons
    //      slideSpeed : 300,

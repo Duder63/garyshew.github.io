@@ -11,11 +11,12 @@ function main() {
 	$(function () {
 		$(window).scroll(function () {
             // set distance user needs to scroll before we fadeIn navbar
-			//if ($(this).scrollTop() > 200) {
-//				$('.navbar').fadeIn();
-//			} else {
-//				$('.navbar').fadeOut();
-//			}
+			//if ($(this).scrollTop() > 200) {	
+			if ($(this).scrollTop() = 0) {
+				$('.navbar').fadeIn();
+			} else {
+				$('.navbar').fadeOut();
+			}
 		});
 
 	

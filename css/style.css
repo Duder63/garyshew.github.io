@@ -369,8 +369,8 @@ ol.type li a:hover {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: rgba(255,255,255,0.6);
-	background: rgba(0, 0, 0, 0.66);
+	color: rgba(255,255,255,0.7);
+	background: rgba(0, 0, 0, 0.75);
 	padding: 25% 0;
 	height: 100%;
 	width: 100%;
